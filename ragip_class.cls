@@ -121,7 +121,7 @@
 % Define custom commands for CV info
 \newcommand{\cvdate}[1]{\renewcommand{\cvdate}{#1}}
 \newcommand{\cvlinkedin}[1]{\renewcommand{\cvlinkedin}{#1}}
-\newcommand{\cvgithub}[1]{\renewcommand{\cvgithub}{#1}}
+%\newcommand{\cvgithub}[1]{\renewcommand{\cvgithub}{#1}}
 \newcommand{\cvmail}[1]{\renewcommand{\cvmail}{#1}}
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
@@ -237,19 +237,12 @@
               \hspace{-3.0mm} \huge \textnormal{\textcolor{linkedin}{\faLinkedinSquare}}
               \end{array}
               $} & \href{https://www.linkedin.com/in/\cvlinkedin/}{\cvlinkedin} \\
-            }
-        \ifthenelse{\equal{\cvgithub}{}}{}{
-		{$
-		\begin{array}{l}
-		\hspace{-3.0mm} \huge \textnormal{\faGithub}
-		\end{array}
-		$} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
-		}   
+            }  
     \end{tabular}
 
     %------------------------------------------------
     \vspace{0.5mm}
-    \profilesection{\color{headercolor}Interests}{0.0cm}
+    \profilesection{\color{headercolor}Abilities}{0.0cm}
 
 	\yetenek
         
@@ -257,7 +250,7 @@
         
         \vspace{3mm}
        
-	 {\large \textbf{\color{headercolor}Programming Skills}} 
+	 {\large \textbf{\color{headercolor}Computer Skills}} 
 
 		 \programming
 		 
